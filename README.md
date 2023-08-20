@@ -5,7 +5,11 @@
 - Requires installation of BeatifulSoup library
 
 ```shell
-pip install BeautifulSoup
+pip install BeautifulSoup twilio
+setx TWILIO_ACCOUNT_SID "your_account_sid"
+setx TWILIO_AUTH_TOKEN "your_auth_token"
+setx TWILIO_NUMBER "your_twilio_phone_number"
+setx RECEIVER_NUMBER "recipient_phone_number"
 python fotd.py "city_name"
 ```
 
